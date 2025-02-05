@@ -1,0 +1,22 @@
+# Plik konfiguracyjny programu
+
+# Wybór, czy wczytać graf z pliku (1) czy wygenerować losowo (2)
+load_graph=2
+
+# Typ grafu do wygenerowania: 1 - asymetryczny, 2 - symetryczny
+graph_type=2
+
+# Rozmiar generowanego grafu (liczba wierzchołków)
+graph_size=8
+
+# Czy wyświetlić graf po jego wczytaniu lub wygenerowaniu: 0 - nie, 1 - tak
+display_graph=0
+
+# Algorytm do uruchomienia: 0 - wszystkie, 1 - BFS, 2 - DFS, 3 - lowest cost
+algorithm=0
+
+# Ścieżka do pliku grafu do wczytania (Wymagana ścieżka absolutna)
+graph_file=
+
+# Liczba powtórzeń każdego algorytmu
+repeat_count=1
